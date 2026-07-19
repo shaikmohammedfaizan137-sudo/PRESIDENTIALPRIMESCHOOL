@@ -5,6 +5,7 @@ import { X } from 'lucide-react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { Reveal, SectionHeading } from '@/components/reveal'
+import { imgPath } from '@/lib/utils'
 
 type Item = {
   src: string
@@ -14,14 +15,14 @@ type Item = {
 }
 
 const items: Item[] = [
-  { src: '/images/classroom.png', alt: 'Smart classroom session with an interactive board', category: 'Academics' },
-  { src: '/images/science-lab.png', alt: 'Students performing a chemistry experiment in the science lab', category: 'Labs', tall: true },
-  { src: '/images/library.png', alt: 'Students reading in the warmly lit school library', category: 'Library' },
-  { src: '/images/sports.png', alt: 'Children playing football on the school sports ground', category: 'Sports', tall: true },
-  { src: '/images/robotics.png', alt: 'Students building robots in the STEM lab', category: 'Robotics' },
-  { src: '/images/events.png', alt: 'Annual day cultural performance on a decorated stage', category: 'Events' },
-  { src: '/images/arts.png', alt: 'Children painting in the art classroom', category: 'Academics' },
-  { src: '/images/hero-campus.png', alt: 'Students walking through the school campus', category: 'Campus' },
+  { src: imgPath('/images/classroom.png'), alt: 'Smart classroom session with an interactive board', category: 'Academics' },
+  { src: imgPath('/images/science-lab.png'), alt: 'Students performing a chemistry experiment in the science lab', category: 'Labs', tall: true },
+  { src: imgPath('/images/library.png'), alt: 'Students reading in the warmly lit school library', category: 'Library' },
+  { src: imgPath('/images/sports.png'), alt: 'Children playing football on the school sports ground', category: 'Sports', tall: true },
+  { src: imgPath('/images/robotics.png'), alt: 'Students building robots in the STEM lab', category: 'Robotics' },
+  { src: imgPath('/images/events.png'), alt: 'Annual day cultural performance on a decorated stage', category: 'Events' },
+  { src: imgPath('/images/arts.png'), alt: 'Children painting in the art classroom', category: 'Academics' },
+  { src: imgPath('/images/hero-campus.png'), alt: 'Students walking through the school campus', category: 'Campus' },
 ]
 
 const filters = ['All', 'Campus', 'Academics', 'Sports', 'Events', 'Robotics', 'Labs', 'Library']

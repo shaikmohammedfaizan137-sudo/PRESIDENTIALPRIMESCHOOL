@@ -1,5 +1,6 @@
 import { MapPin, Phone } from 'lucide-react'
 import Image from 'next/image'
+import { imgPath } from '@/lib/utils'
 import { InstagramIcon } from '@/components/icons/instagram'
 
 const quickLinks = [
@@ -18,7 +19,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo.jpeg"
+              src={imgPath('/images/logo.jpeg')}
               alt="Presidential Prime School logo"
               width={56}
               height={56}

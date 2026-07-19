@@ -1,23 +1,24 @@
 'use client'
 
 import Image from 'next/image'
+import { imgPath } from '@/lib/utils'
 import { Reveal, SectionHeading } from '@/components/reveal'
 
 const stories = [
   {
-    src: '/images/sports.png',
+    src: imgPath('/images/sports.png'),
     alt: 'Students playing football together',
     title: 'Sports & Friendship',
     text: 'From morning drills to inter-house tournaments, children learn teamwork, resilience, and the joy of playing together.',
   },
   {
-    src: '/images/robotics.png',
+    src: imgPath('/images/robotics.png'),
     alt: 'Students building a robot in the STEM lab',
     title: 'Creativity & Innovation',
     text: 'Robotics, coding clubs, science fairs, and art studios give every idea a place to come alive.',
   },
   {
-    src: '/images/events.png',
+    src: imgPath('/images/events.png'),
     alt: 'Cultural performance during annual day celebrations',
     title: 'Celebrations & Leadership',
     text: 'Annual day, cultural festivals, competitions, and community service build confident young leaders with big hearts.',

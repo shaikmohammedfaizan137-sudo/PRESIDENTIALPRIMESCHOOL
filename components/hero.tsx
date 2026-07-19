@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import { ArrowRight, Award, GraduationCap, Users } from 'lucide-react'
 import Image from 'next/image'
+import { imgPath } from '@/lib/utils'
 import { useEffect, useRef, useState } from 'react'
 
 const stats = [
@@ -129,7 +130,7 @@ export function Hero() {
     <section id="top" className="bg-hero-navy relative overflow-hidden">
       {/* School building background image */}
       <Image
-        src="/images/school-building.jpg"
+        src={imgPath('/images/school-building.jpg')}
         alt=""
         fill
         priority

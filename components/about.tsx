@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { imgPath } from '@/lib/utils'
 import { Reveal, SectionHeading } from '@/components/reveal'
 
 const pillars = [
@@ -36,7 +37,7 @@ export function About() {
           <Reveal>
             <div className="relative overflow-hidden rounded-3xl shadow-luxury">
               <Image
-                src="/images/classroom.png"
+                src={imgPath('/images/classroom.png')}
                 alt="Students engaged in a modern smart classroom at Presidential Prime School"
                 width={720}
                 height={520}

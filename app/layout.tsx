@@ -16,7 +16,10 @@ const poppins = Poppins({
   display: 'swap',
 })
 
+const imgPath = (path: string) => `https://shaikmohammedfaizan137-sudo.github.io/PRESIDENTIALPRIMESCHOOL${path}`
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://shaikmohammedfaizan137-sudo.github.io/PRESIDENTIALPRIMESCHOOL'),
   title: 'Presidential Prime School | Best School in Kamareddy, Telangana',
   description:
     'Presidential Prime School — a premium English medium school in KPR Colony, Kamareddy, Telangana. Smart classrooms, experienced faculty, safe campus, and holistic learning. Admissions open 2026-27.',
@@ -34,13 +37,20 @@ export const metadata: Metadata = {
     title: 'Presidential Prime School | Shaping Future Leaders with Excellence',
     description:
       'A premium English medium school in Kamareddy, Telangana. Smart classrooms, experienced faculty, safe campus. Admissions open 2026-27.',
-    type: 'website',
+    images: [{ url: imgPath('/images/logo.jpeg'), width: 800, height: 800, alt: 'Presidential Prime School logo' }],
     locale: 'en_IN',
-    images: [{ url: '/images/logo.jpeg', width: 800, height: 800, alt: 'Presidential Prime School logo' }],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Presidential Prime School | Shaping Future Leaders with Excellence',
+    description:
+      'A premium English medium school in Kamareddy, Telangana. Smart classrooms, experienced faculty, safe campus. Admissions open 2026-27.',
+    images: [{ url: imgPath('/images/logo.jpeg'), alt: 'Presidential Prime School logo', width: 800, height: 800 }],
   },
   icons: {
-    icon: [{ url: '/images/logo.jpeg', type: 'image/jpeg' }],
-    apple: '/images/logo.jpeg',
+    icon: [{ url: imgPath('/images/logo.jpeg'), type: 'image/jpeg' }],
+    apple: imgPath('/images/logo.jpeg'),
   },
 }
 

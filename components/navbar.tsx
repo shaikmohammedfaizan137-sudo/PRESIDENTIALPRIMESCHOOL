@@ -5,6 +5,7 @@ import { Menu, Phone, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { imgPath } from '@/lib/utils'
 
 const links = [
   { href: '#about', label: 'About' },
@@ -43,7 +44,7 @@ export function Navbar() {
       <nav aria-label="Main navigation" className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 md:px-8">
         <Link href="#top" className="flex items-center gap-3">
           <Image
-            src="/images/logo.jpeg"
+            src={imgPath('/images/logo.jpeg')}
             alt="Presidential Prime School logo"
             width={52}
             height={52}
