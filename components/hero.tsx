@@ -7,7 +7,7 @@ import { imgPath } from '@/lib/utils'
 import { useEffect, useRef, useState } from 'react'
 
 const stats = [
-  { icon: Award, value: '25+ Years', label: 'Legacy of Excellence' },
+  { icon: Award, value: 'Premium Quality', label: 'Holistic Learning' },
   { icon: GraduationCap, value: '98% Results', label: 'Board Examinations' },
   { icon: Users, value: '1:15 Ratio', label: 'Teacher to Student' },
 ]
