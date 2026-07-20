@@ -7,34 +7,34 @@ const stages = [
   {
     icon: Blocks,
     stage: 'Pre-Primary',
-    grades: 'Nursery – UKG',
-    curriculum: 'Play-way and Montessori-inspired foundation',
-    methods: 'Learning through play, phonics, rhymes, motor-skill activities',
-    outcomes: 'Confident communication, early literacy and numeracy, joyful curiosity',
+    grades: 'Nursery, Junior KG & Senior KG',
+    curriculum: 'Montessori, kindergarten and play-way methods adopted and adapted for the pre-primary level',
+    methods: 'Audio-visual aids, activity-based learning, colours, textures, music and movement',
+    outcomes: 'Love, warmth and security as children begin their journey into the school environment',
   },
   {
     icon: Lightbulb,
     stage: 'Primary',
     grades: 'Grades 1 – 5',
-    curriculum: 'Strong fundamentals in English, Math, Science & EVS',
-    methods: 'Activity-based learning, smart classes, reading programs',
-    outcomes: 'Concept clarity, fluent English, independent thinking habits',
+    curriculum: 'Strong foundation in Reading, Writing, Speaking, Languages, Science, Social Science and Mathematics',
+    methods: 'Play-way methods, experiential learning, collaborative and reciprocal learning',
+    outcomes: 'Assimilation of information, clarity of concepts, nurturing multiple intelligences',
   },
   {
     icon: FlaskConical,
     stage: 'Middle School',
     grades: 'Grades 6 – 8',
-    curriculum: 'Deeper subject mastery with labs and projects',
-    methods: 'Experiments, group projects, digital learning, competitions',
-    outcomes: 'Analytical skills, scientific temper, leadership foundations',
+    curriculum: 'Student-friendly and learner-centred teaching methodologies',
+    methods: 'Teaching through technology, with technology and from technology — Comprehend, Apply, Evaluate, Create',
+    outcomes: 'Creative and independent thinkers prepared to meet life\'s challenges',
   },
   {
     icon: Rocket,
-    stage: 'High School',
-    grades: 'Grades 9 – 10',
-    curriculum: 'Board-focused academics with career guidance',
-    methods: 'Expert faculty, regular assessments, personalised mentoring',
-    outcomes: 'Outstanding board results and future-ready confidence',
+    stage: 'Secondary School',
+    grades: 'Grade 9',
+    curriculum: 'Curriculum that prepares students for a global future with career guidance',
+    methods: 'Self-reliant decision-making, calculated risks, managing complexity',
+    outcomes: 'Self-directed, creative, curious learners with sound reasoning abilities',
   },
 ]
 
@@ -45,7 +45,7 @@ export function Academics() {
         <SectionHeading
           eyebrow="Academics"
           title="A Clear Path from First Steps to Future Success"
-          description="Every stage of learning at Presidential Prime School is thoughtfully designed with the right curriculum, teaching methods, and outcomes."
+          description="Every stage of learning at Presidential Prime School is thoughtfully designed — from the formative pre-primary years to secondary school, preparing students for a global future."
         />
 
         <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">

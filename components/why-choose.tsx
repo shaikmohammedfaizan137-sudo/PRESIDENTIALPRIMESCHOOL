@@ -19,20 +19,20 @@ import {
 import { Reveal, SectionHeading } from '@/components/reveal'
 
 const features = [
-  { icon: BookOpen, title: 'Academic Excellence', text: 'A rigorous, concept-first curriculum that builds deep understanding.' },
-  { icon: Users, title: 'Experienced Teachers', text: 'Qualified, caring faculty trained in modern teaching methods.' },
-  { icon: MonitorPlay, title: 'Smart Classrooms', text: 'Interactive digital boards make every lesson engaging.' },
-  { icon: UserCheck, title: 'Individual Attention', text: 'Small class ratios so no child is ever left behind.' },
-  { icon: ShieldCheck, title: 'Safe Campus', text: 'CCTV security, verified staff, and a clean, protected environment.' },
-  { icon: Sparkles, title: 'Creative Learning', text: 'Activity-based lessons that spark curiosity and joy.' },
-  { icon: Laptop, title: 'Digital Education', text: 'Computer labs and digital literacy from an early age.' },
-  { icon: Trophy, title: 'Sports & Physical Education', text: 'Daily physical activity, games, and competitive sports.' },
-  { icon: Palette, title: 'Arts & Music', text: 'Painting, craft, music, and dance to nurture every talent.' },
-  { icon: Mic, title: 'Leadership Programs', text: 'Public speaking, student council, and confidence building.' },
-  { icon: MessagesSquare, title: 'English Communication', text: 'Strong spoken English focus for global readiness.' },
-  { icon: Brain, title: 'Future Ready Skills', text: "Robotics, coding, and problem-solving for tomorrow's world." },
-  { icon: Bus, title: 'Safe Transportation', text: 'GPS-tracked buses with trained attendants on every route.' },
-  { icon: Camera, title: 'Parent Communication', text: 'Regular updates so parents stay connected to progress.' },
+  { icon: Brain, title: 'Critical Thinking', text: 'The school addresses the 4 Cs of 21st-century skills, starting with critical thinking to build analytical minds.' },
+  { icon: Sparkles, title: 'Creativity', text: 'Fostering creativity through activity-based learning, arts, music, and hands-on exploration.' },
+  { icon: MessagesSquare, title: 'Communication', text: 'Ensures spoken English through an English Language Acquisition Programme for global readiness.' },
+  { icon: Users, title: 'Collaboration', text: 'Co-curricular, environmental and community-based activities foster continuous collaborative learning.' },
+  { icon: BookOpen, title: 'International Standards', text: 'International standards of education with aesthetically designed classrooms and quality infrastructural facilities.' },
+  { icon: MonitorPlay, title: 'Learning Beyond Classroom', text: 'Focuses on learning beyond the classroom through co-curricular activities, extra-curricular activities and field trips.' },
+  { icon: UserCheck, title: 'Character & Competence', text: 'Reinforces the school culture through the development of character and competence.' },
+  { icon: ShieldCheck, title: 'Safety & Hygiene', text: 'Prioritizes safety and hygiene to ensure a secure and healthy learning environment.' },
+  { icon: Trophy, title: 'Competitive Exam Training', text: 'Trains students for competitive exams, Olympiads, technology-based assessments and other learning experiences.' },
+  { icon: Laptop, title: 'Career Development', text: 'Foundation programmes for IIT, NEET, IAS, IPS, UPSC and competitive examinations.' },
+  { icon: Palette, title: 'Skill Building Programme', text: 'Diverse clubs including Robotics, Science Club, IT Club, Vedic Mathematics, Music, Dance and more.' },
+  { icon: Mic, title: 'Counselling & Guidance', text: 'Academic, career, personal and emotional counselling in a supportive environment.' },
+  { icon: Bus, title: 'Parent-Teacher Interaction', text: 'Regular Parent-Teacher Meetings to discuss and identify individual student needs and solutions.' },
+  { icon: Camera, title: 'Quality Management', text: 'Quality management through parent and student feedback systems with corrective measures.' },
 ]
 
 export function WhyChoose() {
@@ -41,8 +41,8 @@ export function WhyChoose() {
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading
           eyebrow="Why Choose Us"
-          title="Everything Your Child Needs to Thrive"
-          description="Fourteen reasons parents across Kamareddy choose Presidential Prime School — and why children love coming here every morning."
+          title="Learning for Life and Learning to Lead"
+          description="Our school supports learning for life and learning to LEAD with aesthetically designed classrooms and quality infrastructural facilities."
         />
 
         <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

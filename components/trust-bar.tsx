@@ -4,13 +4,13 @@ import { Award, HeartHandshake, MonitorPlay, ShieldCheck, Star, Trophy, Users } 
 import { Reveal } from '@/components/reveal'
 
 const badges = [
-  { icon: ShieldCheck, label: '100% Safe Campus' },
-  { icon: Users, label: 'Experienced Faculty' },
-  { icon: MonitorPlay, label: 'Smart Classrooms' },
+  { icon: Users, label: 'Only 24 Students Per Class' },
+  { icon: Award, label: 'International Standards' },
+  { icon: MonitorPlay, label: 'Activity-Based Learning' },
   { icon: Trophy, label: 'Sports & Activities' },
-  { icon: Award, label: 'Holistic Learning' },
+  { icon: ShieldCheck, label: 'Safe & Hygienic Campus' },
   { icon: HeartHandshake, label: 'Parent Trusted' },
-  { icon: Star, label: '4.2 Google Rating' },
+  { icon: Star, label: 'Nursery to 9th Grade' },
 ]
 
 export function TrustBar() {

@@ -46,8 +46,8 @@ export function Gallery() {
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading
           eyebrow="Campus Experience"
-          title="Life at Presidential Prime"
-          description="Classrooms, labs, sports, celebrations, and everything in between — explore the moments that make our campus special."
+          title="Life at Presidential Prime School"
+          description="A good campus in the centre of the city with a good ground and greenery. Classrooms, labs, sports, celebrations, and everything in between — explore the moments that make our campus special."
         />
 
         <Reveal className="mt-10">

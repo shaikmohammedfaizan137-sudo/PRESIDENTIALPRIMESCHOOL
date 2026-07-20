@@ -7,19 +7,19 @@ import { Reveal, SectionHeading } from '@/components/reveal'
 const pillars = [
   {
     title: 'Our Vision',
-    text: 'To be the most trusted institution in Kamareddy where every child grows into a confident, compassionate, and capable future leader.',
+    text: 'Our vision is to develop global leaders for tomorrow. We aspire to have our students develop into lifelong learners with a sense of purpose, good moral judgment and commitment to making the world a better place.',
   },
   {
     title: 'Our Mission',
-    text: 'To deliver world-class, student-first education that blends strong academics with character, creativity, and modern life skills.',
+    text: 'To inspire young minds to meet their full potential as learners. Our intent is to create a supportive educational environment that produces self-motivated students and reliable future citizens.',
   },
   {
-    title: 'Our Values',
-    text: 'Excellence, discipline, integrity, curiosity, and respect — woven into every classroom, playground, and celebration.',
+    title: 'Our Philosophy',
+    text: 'We believe in the philosophy of embarking on the mission to enlighten young minds with deliberate and systematic education, inculcating the spirit of being humane as well as social values and spiritual development in a harmonious manner.',
   },
   {
-    title: 'Learning Philosophy',
-    text: 'Activity-based, individual-attention learning where children ask questions, explore ideas, and build real understanding — not rote memory.',
+    title: 'A School With a Difference',
+    text: 'Presidential Prime School believes in activity-blended education. Perceptive teaching awakens the creative and leadership skills dormant in every child, making it a school with a difference.',
   },
 ]
 
@@ -29,8 +29,8 @@ export function About() {
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading
           eyebrow="About the School"
-          title="Where Character Meets Academic Excellence"
-          description="Presidential Prime School is a premium English medium institution in KPR Colony, Kamareddy — built on the belief that every child deserves a world-class education, close to home."
+          title="A School Where Every Child Matters"
+          description="Your children from our school will make a mark for themselves in the world and will always 'Kindle to Enlighten' their path to success, bringing pride to the Nation. We believe in merging old-school values with new-age methodologies to create well-rounded individuals who create a positive change in society."
         />
 
         <div className="mt-16 grid items-center gap-12 lg:grid-cols-2">

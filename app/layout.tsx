@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://shaikmohammedfaizan137-sudo.github.io/PRESIDENTIALPRIMESCHOOL'),
   title: 'Presidential Prime School | Best School in Kamareddy, Telangana',
   description:
-    'Presidential Prime School — a premium English medium school in KPR Colony, Kamareddy, Telangana. Smart classrooms, experienced faculty, safe campus, and holistic learning. Admissions open 2026-27.',
+    'Presidential Prime School — Empowering The Intellectual Leaders. English medium school in KPR Colony, Kamareddy. Nursery to 9th Grade. Only 24 students in a classroom. Admissions are in progress.',
   generator: 'v0.app',
   keywords: [
     'Best School in Kamareddy',
@@ -32,20 +32,22 @@ export const metadata: Metadata = {
     'School Near KPR Colony',
     'Quality Education Telangana',
     'Presidential Prime School',
+    'Nursery to 9th Grade',
+    'Only 24 Students',
   ],
   openGraph: {
-    title: 'Presidential Prime School | Shaping Future Leaders with Excellence',
+    title: 'Presidential Prime School | Empowering The Intellectual Leaders',
     description:
-      'A premium English medium school in Kamareddy, Telangana. Smart classrooms, experienced faculty, safe campus. Admissions open 2026-27.',
+      'English medium school in KPR Colony, Kamareddy. Nursery to 9th Grade. Only 24 students in a classroom. Admissions are in progress.',
     images: [{ url: imgPath('/images/logo.jpeg'), width: 800, height: 800, alt: 'Presidential Prime School logo' }],
     locale: 'en_IN',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Presidential Prime School | Shaping Future Leaders with Excellence',
+    title: 'Presidential Prime School | Empowering The Intellectual Leaders',
     description:
-      'A premium English medium school in Kamareddy, Telangana. Smart classrooms, experienced faculty, safe campus. Admissions open 2026-27.',
+      'English medium school in KPR Colony, Kamareddy. Nursery to 9th Grade. Only 24 students in a classroom. Admissions are in progress.',
     images: [{ url: imgPath('/images/logo.jpeg'), alt: 'Presidential Prime School logo', width: 800, height: 800 }],
   },
   icons: {
@@ -64,10 +66,10 @@ const schoolSchema = {
   '@type': 'School',
   name: 'Presidential Prime School',
   description:
-    'Premium English medium school in Kamareddy, Telangana offering holistic education from Pre-Primary to High School.',
+    'Empowering The Intellectual Leaders. English medium school in Kamareddy, Telangana offering quality education from Nursery to 9th Grade.',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Om Shanthi Road, KPR Colony',
+    streetAddress: 'KPR Colony',
     addressLocality: 'Kamareddy',
     addressRegion: 'Telangana',
     postalCode: '503111',

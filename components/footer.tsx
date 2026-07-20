@@ -1,4 +1,4 @@
-import { MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin, Phone } from 'lucide-react'
 import Image from 'next/image'
 import { imgPath } from '@/lib/utils'
 import { InstagramIcon } from '@/components/icons/instagram'
@@ -27,12 +27,12 @@ export function Footer() {
             />
             <div>
               <p className="font-heading font-semibold">Presidential Prime School</p>
-              <p className="text-sm text-primary-foreground/60">Shaping Future Leaders</p>
+              <p className="text-sm text-primary-foreground/60">Empowering The Intellectual Leaders</p>
             </div>
           </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-primary-foreground/70">
-            A premium English medium school in Kamareddy nurturing curiosity, confidence,
-            character, and academic excellence.
+            We believe education is not only the transmission of civilisation but also one of the
+            most powerful tools to change the world.
           </p>
         </div>
 
@@ -57,12 +57,18 @@ export function Footer() {
           <ul className="flex flex-col gap-3 text-sm text-primary-foreground/75">
             <li className="flex items-start gap-2.5">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden />
-              <span>Om Shanthi Road, KPR Colony, Kamareddy, Telangana – 503111</span>
+              <span>KPR Colony, Kamareddy – 503 111</span>
             </li>
             <li>
               <a href="tel:+919640456760" className="flex items-center gap-2.5 transition-colors hover:text-gold">
                 <Phone className="h-4 w-4 shrink-0 text-gold" aria-hidden />
                 +91 96404 56760
+              </a>
+            </li>
+            <li>
+              <a href="mailto:presidentialprimeschool@gmail.com" className="flex items-center gap-2.5 transition-colors hover:text-gold">
+                <Mail className="h-4 w-4 shrink-0 text-gold" aria-hidden />
+                presidentialprimeschool@gmail.com
               </a>
             </li>
             <li>
@@ -83,7 +89,7 @@ export function Footer() {
       <div className="border-t border-primary-foreground/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-center text-xs text-primary-foreground/55 md:flex-row md:px-8">
           <p>© {new Date().getFullYear()} Presidential Prime School. All rights reserved.</p>
-          <p>Admissions Open 2026-27 · Kamareddy, Telangana</p>
+          <p>Admissions Are in Progress · Nursery to 9th Grade · Kamareddy</p>
         </div>
       </div>
     </footer>

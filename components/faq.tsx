@@ -8,7 +8,7 @@ import { Reveal, SectionHeading } from '@/components/reveal'
 const faqs = [
   {
     q: 'What is the admission process?',
-    a: 'Admission is a simple 3-step process: submit an inquiry, visit the campus for a tour and interaction, and complete the registration with basic documents. Our team guides you at every step.',
+    a: 'Admissions are in progress for Nursery to 9th Grade. Submit an inquiry, visit the campus for a tour and interaction, and complete the registration. Our team guides you at every step.',
   },
   {
     q: 'What are the school timings?',
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: 'What is the fee structure?',
-    a: 'We believe premium education should be accessible. Fees vary by grade and are kept transparent and affordable, with flexible term-wise payment options. Contact the office at +91 96404 56760 for the detailed fee structure.',
+    a: 'We believe quality education should be accessible. Fees vary by grade and are kept transparent and affordable, with flexible payment options. Contact the office at +91 96404 56760 or email presidentialprimeschool@gmail.com for details.',
   },
   {
     q: 'Is transportation available?',
@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     q: 'What curriculum does the school follow?',
-    a: 'We follow an English medium, activity-based curriculum aligned with the Telangana State Board, enriched with smart classes, labs, robotics, and communication skills programs.',
+    a: 'We follow an English medium, activity-blended curriculum with international standards. Numerous activities go hand-in-hand with the academic curriculum to strengthen the foundation of students\' careers and bring about their all-round development.',
   },
   {
     q: 'What facilities does the campus have?',
-    a: 'Smart classrooms, science and computer labs, a well-stocked library, sports grounds, a safe play area, CCTV security, and clean, child-friendly infrastructure.',
+    a: 'Smart classrooms, science and computer labs, a learning resource centre (library) with access to books, reference materials, fiction, non-fiction, and e-books, sports grounds, a safe play area, and child-friendly infrastructure.',
   },
   {
     q: 'Is there a school uniform?',

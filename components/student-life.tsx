@@ -8,20 +8,20 @@ const stories = [
   {
     src: imgPath('/images/sports.png'),
     alt: 'Students playing football together',
-    title: 'Sports & Friendship',
-    text: 'From morning drills to inter-house tournaments, children learn teamwork, resilience, and the joy of playing together.',
+    title: 'Life-Long Lessons Through Sports',
+    text: 'We train students to strengthen their physical capabilities. Sports develop physical fitness, confidence, discipline, leadership, teamwork, resilience and competitive spirit.',
   },
   {
     src: imgPath('/images/robotics.png'),
     alt: 'Students building a robot in the STEM lab',
-    title: 'Creativity & Innovation',
-    text: 'Robotics, coding clubs, science fairs, and art studios give every idea a place to come alive.',
+    title: 'Clubs & Skill Building',
+    text: 'Diverse clubs including Robotics, Science Club, Music, Dance, Art & Craft, Debate, Vedic Mathematics, Yoga and more — helping students explore their passions and build confidence.',
   },
   {
     src: imgPath('/images/events.png'),
     alt: 'Cultural performance during annual day celebrations',
-    title: 'Celebrations & Leadership',
-    text: 'Annual day, cultural festivals, competitions, and community service build confident young leaders with big hearts.',
+    title: 'Global Exposure & Events',
+    text: 'Students have opportunities to participate and compete through various events and programmes, boosting their confidence and preparing them for future careers.',
   },
 ]
 
@@ -32,7 +32,7 @@ export function StudentLife() {
         <SectionHeading
           eyebrow="Student Life"
           title="More Than Marks — Memories, Friendships, Growth"
-          description="Learning at Presidential Prime happens everywhere: in classrooms, on the field, on stage, and in every friendship formed along the way."
+          description="Learning at Presidential Prime School happens everywhere: in classrooms, on the field, on stage, and in every friendship formed along the way."
         />
 
         <div className="mt-16 grid gap-8 md:grid-cols-3">

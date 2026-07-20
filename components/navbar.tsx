@@ -114,7 +114,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-2 rounded-full bg-gold px-5 py-3 text-center text-sm font-semibold text-accent-foreground"
             >
-              Admissions Open 2026-27
+              Admissions Are in Progress
             </a>
             <a
               href="tel:+919640456760"

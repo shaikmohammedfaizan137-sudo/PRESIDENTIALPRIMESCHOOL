@@ -17,7 +17,6 @@ const grades = [
   'Grade 7',
   'Grade 8',
   'Grade 9',
-  'Grade 10',
 ]
 
 const inputClass =
@@ -51,18 +50,18 @@ export function Admissions() {
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-4 md:px-8 lg:grid-cols-2">
         <Reveal>
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-gold">
-            Admissions Open 2026-27
+            Admissions Are in Progress
           </p>
           <h2 className="text-balance font-heading text-3xl font-semibold text-primary-foreground md:text-5xl">
-            Give Your Child the Presidential Advantage
+            Nursery to 9th Grade — Only 24 Students in a Classroom
           </h2>
           <p className="mt-5 max-w-lg text-pretty leading-relaxed text-primary-foreground/75">
-            Seats are limited for the 2026-27 academic year. Fill in the inquiry form and our
-            admissions team will call you back within 24 hours — or visit our campus and see the
-            difference yourself.
+            One of the most important decisions you will make as a parent is choosing the right
+            school for your children. Presidential Prime School aims to provide the right
+            environment for quality education and the overall development of children.
           </p>
           <ul className="mt-8 flex flex-col gap-3">
-            {['Simple 3-step admission process', 'Personal campus tour for every family', 'Transparent, affordable fee structure'].map(
+            {['Nursery to 9th Grade admissions', 'Only 24 students in a classroom', 'Quality education with international standards'].map(
               (li) => (
                 <li key={li} className="flex items-center gap-3 text-primary-foreground/90">
                   <CheckCircle2 className="h-5 w-5 shrink-0 text-gold" aria-hidden />

@@ -1,6 +1,6 @@
 'use client'
 
-import { MapPin, MessageCircle, Phone, Star } from 'lucide-react'
+import { Mail, MapPin, MessageCircle, Phone, Star } from 'lucide-react'
 import { InstagramIcon } from '@/components/icons/instagram'
 import { Reveal, SectionHeading } from '@/components/reveal'
 
@@ -11,7 +11,7 @@ export function Contact() {
         <SectionHeading
           eyebrow="Contact Us"
           title="Visit Our Campus — We Would Love to Meet You"
-          description="Come see the classrooms, meet the teachers, and experience the Presidential Prime difference in person."
+          description="Come see the classrooms, meet the teachers, and experience the Presidential Prime School difference in person."
         />
 
         <div className="mt-16 grid gap-8 lg:grid-cols-2">
@@ -29,9 +29,9 @@ export function Contact() {
                 <span>
                   <span className="block font-semibold text-ink">Our Address</span>
                   <span className="mt-1 block text-sm leading-relaxed text-muted-foreground">
-                    Om Shanthi Road, KPR Colony,
+                    KPR Colony,
                     <br />
-                    Kamareddy, Telangana – 503111
+                    Kamareddy – 503 111
                   </span>
                 </span>
               </a>
@@ -62,6 +62,21 @@ export function Contact() {
                   <span className="block font-semibold text-ink">WhatsApp</span>
                   <span className="mt-1 block text-sm text-muted-foreground">
                     Chat with our admissions team instantly
+                  </span>
+                </span>
+              </a>
+
+              <a
+                href="mailto:presidentialprimeschool@gmail.com"
+                className="flex items-start gap-4 rounded-2xl border border-border bg-card p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-luxury"
+              >
+                <span className="rounded-xl bg-secondary p-3 text-gold">
+                  <Mail className="h-6 w-6" aria-hidden />
+                </span>
+                <span>
+                  <span className="block font-semibold text-ink">Email Us</span>
+                  <span className="mt-1 block text-sm text-muted-foreground">
+                    presidentialprimeschool@gmail.com
                   </span>
                 </span>
               </a>

@@ -7,9 +7,9 @@ import { imgPath } from '@/lib/utils'
 import { useEffect, useRef, useState } from 'react'
 
 const stats = [
-  { icon: Award, value: 'Premium Quality', label: 'Holistic Learning' },
-  { icon: GraduationCap, value: '98% Results', label: 'Board Examinations' },
-  { icon: Users, value: '1:15 Ratio', label: 'Teacher to Student' },
+  { icon: Award, value: 'Only 24 Students', label: 'In a Classroom' },
+  { icon: GraduationCap, value: 'Nursery to 9th', label: 'Grade Admissions' },
+  { icon: Users, value: 'Quality Education', label: 'International Standards' },
 ]
 
 const typewriterWords = ['Leaders.', 'Thinkers.', 'Dreamers.', 'Achievers.']
@@ -171,16 +171,14 @@ export function Hero() {
           className="inline-flex items-center gap-2.5 rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gold"
         >
           <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-gold" />
-          Admissions Open 2026&ndash;27
+          Admissions Are in Progress
         </motion.p>
 
         <motion.h1
           {...fadeUp(0.15)}
           className="mt-7 font-heading text-[2.75rem] font-semibold leading-[1.06] tracking-tight text-white md:text-6xl lg:text-7xl"
         >
-          Building Bright Minds.
-          <br />
-          Shaping Bold{' '}
+          Empowering The Intellectual{' '}
           <TypewriterWord />
         </motion.h1>
 
@@ -188,8 +186,7 @@ export function Hero() {
           {...fadeUp(0.25)}
           className="mt-6 max-w-2xl text-pretty text-base leading-relaxed text-white/65 md:text-lg"
         >
-          A premium English medium school in Kamareddy where academic rigor, character, and
-          confidence come together.
+          Learning gives you creativity and creativity leads to thinking, and thinking provides knowledge and knowledge makes you great. — A.P.J. Abdul Kalam
         </motion.p>
 
         <motion.div {...fadeUp(0.35)} className="mt-9 flex flex-wrap items-center justify-center gap-4">
@@ -197,7 +194,7 @@ export function Hero() {
             href="#contact"
             className="shadow-gold-glow group inline-flex items-center gap-2.5 rounded-full bg-gold px-7 py-3.5 text-sm font-semibold uppercase tracking-wider text-ink transition-transform hover:scale-[1.03]"
           >
-            Book a campus tour
+            Enquire Now
             <ArrowRight
               className="h-4 w-4 transition-transform group-hover:translate-x-1"
               aria-hidden
@@ -207,7 +204,7 @@ export function Hero() {
             href="#admissions"
             className="inline-flex items-center rounded-full border border-white/25 px-7 py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:border-gold/60 hover:text-gold"
           >
-            Enroll now
+            Admissions Open
           </a>
         </motion.div>
 
